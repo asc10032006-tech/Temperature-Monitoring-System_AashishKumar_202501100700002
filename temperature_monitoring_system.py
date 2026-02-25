@@ -20,3 +20,4 @@ def monitor_temperature():
         time.sleep(2)
 if __name__ == "__main__":
     monitor_temperature()
+    
