@@ -35,4 +35,34 @@
      3. Status Reporting: It prints the current time, the temperature, and the status message to the console.
      
      
-     4. Throttling: The time.sleep(2) command prevents the script from consuming excessive CPU power and mimics a standard 2-second sensor sampling rate. 
+     4. Throttling: The time.sleep(2) command prevents the script from consuming excessive CPU power and mimics a standard 2-second sensor sampling rate.
+
+
+# Sample Output
+
+
+If a user sets a Minimum of 20°C and a Maximum of 40°C, the output would look like this:
+
+
+Enter minimum temperature limit: 20
+
+
+Enter maximum temperature limit: 40
+
+
+Monitoring started. Range: 20.0°C - 40.0°C
+
+[14:05:01] Temp: 24.52°C - Temperature is Normal
+
+
+[14:05:03] Temp: 18.15°C - !! LOW TEMPERATURE ALERT !!
+
+
+[14:05:05] Temp: 32.88°C - Temperature is Normal
+
+
+[14:05:07] Temp: 45.10°C - !! HIGH TEMPERATURE ALERT !!
+
+
+[14:05:09] Temp: 38.92°C - Temperature is Normal
+
